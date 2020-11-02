@@ -69,7 +69,7 @@ const Form: React.FC = () => {
         trackers: trackers,
       },
     };
-    fetch(`${process.env.API_BASE}/new", {
+    fetch(`https://stark-peak-66749.herokuapp.com/api/new`, {
       headers: {
         Accept: "application/json",
         "Content-Type": "application/json",

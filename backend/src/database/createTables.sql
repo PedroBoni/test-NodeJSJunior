@@ -7,7 +7,6 @@ CREATE TABLE IF NOT EXISTS tb_contact (
     nm_first VARCHAR(30) NOT NULL,
     nm_last VARCHAR(30) NOT NULL,
     nm_email VARCHAR(100) NOT NULL,
-    nr_country_code INT NOT NULL,
     nr_phone varchar(15) NOT NULL,
     nm_country VARCHAR(30) NOT NULL,
     nm_language VARCHAR(30) NOT NULL,

@@ -10,12 +10,11 @@ export default {
     let result: any;
 
     let sql = `
-      INSERT INTO tb_contact (nm_first, nm_last, nm_email, nr_country_code, nr_phone, nm_country, nm_language)
+      INSERT INTO tb_contact (nm_first, nm_last, nm_email, nr_phone, nm_country, nm_language)
       VALUES  (
       '${body.contact.firstName}',
       '${body.contact.lastName}', 
       '${body.contact.email}',
-      ${body.contact.countryCode}, 
       '${body.contact.phone}', 
       '${body.contact.country}', 
       '${body.contact.language}')

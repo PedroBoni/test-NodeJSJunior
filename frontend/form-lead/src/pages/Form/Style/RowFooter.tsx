@@ -3,7 +3,7 @@ import { Row } from "./Row";
 
 export const RowFooter = styled(Row)`
   justify-content: flex-end;
-  padding: 0 6rem 2rem 6rem;
+  padding: 1rem 6rem 2rem 6rem;
   @media (max-width: 1100px) {
     padding: 0 5rem 2rem 5rem;
   }

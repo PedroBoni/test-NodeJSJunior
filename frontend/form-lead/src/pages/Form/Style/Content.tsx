@@ -2,8 +2,9 @@ import styled from "styled-components";
 
 export const Content = styled.div`
   display: flex;
-  padding: 2rem 5rem;
+  padding: 0.5rem 5rem;
   flex-wrap: wrap;
+  background-color: #f7f7f7;
   > div {
     max-width: 50%;
     padding: 1rem;

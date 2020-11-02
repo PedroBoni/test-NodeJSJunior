@@ -6,8 +6,8 @@ Go to: https://polar-tundra-30459.herokuapp.com/
 
 # Development
 
-Backend
+Backend  
 `cd backend && yarn install && yarn dev`
 
-Fronend
+Fronend  
 `cd fronend/form-lead && yarn install && yarn start`

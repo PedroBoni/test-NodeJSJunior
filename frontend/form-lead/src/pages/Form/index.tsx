@@ -69,7 +69,7 @@ const Form: React.FC = () => {
         trackers: trackers,
       },
     };
-    fetch("http://localhost:3001/api/new", {
+    fetch(`${process.env.API_BASE}/new", {
       headers: {
         Accept: "application/json",
         "Content-Type": "application/json",
